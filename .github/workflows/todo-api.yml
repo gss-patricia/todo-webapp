@@ -1,5 +1,4 @@
 name: TodoAPI
-
 on:
   push:
     branches: [main]
@@ -41,7 +40,7 @@ jobs:
         uses: dorny/test-reporter@v1
         if: always()
         with:
-          name: Todo API Tests
+          name: TodoApp Tests
           path: "**/TestResults/*.trx"
           reporter: dotnet-trx
 
