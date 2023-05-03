@@ -5,12 +5,12 @@ on:
     branches: [main]
     paths:
       - "src/TodoWebapp/**"
-      - ".github/workflows/todo-webapp.yaml"
+      - ".github/workflows/todo-webapp.yml"
   pull_request:
     branches: [main]
     paths:
       - "src/TodoWebapp/**"
-      - ".github/workflows/todo-webapp.yaml"
+      - ".github/workflows/todo-webapp.yml"
 
 env:
   AZURE_WEBAPP_NAME: "psilva-todoapp-prd-web"
